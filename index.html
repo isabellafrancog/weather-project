@@ -24,23 +24,21 @@
     <div class="container">
       <div class="weather-app">
         <h1 id="city"></h1>
+
         <ul>
+          <li>Last updated: <span id="date"></span></li>
           <li id="description">clear sky</li>
         </ul>
         <div class="row">
           <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt="sunnycloudy"
-            />
+            <img src="" id="icon" alt="" />
             <strong id="temperature"> 12 </strong>
             <span class="units">°C | <a href="#">°F </a> </span>
           </div>
           <div class="col-6">
             <ul>
-              <li>Precipitation 7%</li>
-              <li>Humidity 15%</li>
-              <li>Wind 2 km/h</li>
+              <li>Humidity <span id="humidity"></span>%</li>
+              <li>Wind <span id="wind"></span>km/h</li>
             </ul>
           </div>
         </div>
