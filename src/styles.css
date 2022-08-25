@@ -41,3 +41,10 @@ li {
   border-radius: 10px;
   background-color: #fff;
 }
+.weather-forecast-temperature-max {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  font-size: 13px;
+  color: #7e8388;
+}
