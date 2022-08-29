@@ -18,6 +18,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-right: 10px;
 }
 
 .col-6 strong {
@@ -47,4 +48,11 @@ li {
 .weather-forecast-temperature-min {
   font-size: 13px;
   color: #7e8388;
+}
+.link {
+  font-size: 13px;
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+  background-color: #ffff;
 }
